@@ -1,0 +1,25 @@
+# Tutorial Ignoring Files
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# question: would log/archive/access.log  be ignored? No. Because the directory isnt listed above in Zeile 6-7
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zips
