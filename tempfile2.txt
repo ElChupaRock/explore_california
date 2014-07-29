@@ -1,2 +1,0 @@
-# ignore tracked files
-this is the second temporary file.
