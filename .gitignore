@@ -25,3 +25,6 @@ assets/videos/
 *.rar
 *.tar
 *.zips
+
+# Mit Ausrufezeichen können ignorierte Dateien aus der globalen .gitignore_global
+# erlaubt werden z.B. !assets/photoshop/, !*.zip
